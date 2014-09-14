@@ -1,5 +1,7 @@
 /* 	ADVANCED TYPOGRAPHY STYLES ============================================================================== */
-@font-face {
+
+
+@font-face{
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon.eot?-er8vvy');
 	src:url('../fonts/icomoon.eot?#iefix-er8vvy') format('embedded-opentype'),
@@ -9,8 +11,7 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"], [class*="icon-"] {
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -18,7 +19,6 @@
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
