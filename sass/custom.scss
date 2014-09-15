@@ -180,13 +180,14 @@ h2{
 	text-shadow:-.02em .02em 0px $white, -.05em .05em 0px $clay-grey;
 }
 h3{
-	//border-top:1px dotted $black;
 	font-weight:700;
 	text-transform:uppercase;
-	//color:$black;
+	text-align:center;
 }
 li{
 	img{
+		display: block;
+		margin: 0 auto;
 		width:35%;
 		opacity:.85;
 	}

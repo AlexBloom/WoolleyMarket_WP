@@ -238,11 +238,7 @@ hr {
 
 
 ul{
-  list-style-type:disc;
-  text-align:left;	 
-}
-ul li{
-	text-align:left;
+  list-style-type:disc; 
 }
 
 dl {
@@ -257,6 +253,10 @@ article section {
   max-width: 56.25em;
   margin-left: auto;
   margin-right: auto; }
+
+  article li{
+	  text-align:left;
+  }
 
 .full-width {
   padding: 0;
@@ -696,8 +696,11 @@ label {
     text-shadow: -0.02em 0.02em 0px #f9fae8, -0.05em 0.05em 0px #adaa90; }
   #trademarks h3 {
     font-weight: 700;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+	text-align:center; }
   #trademarks li img {
+	display: block;
+	margin: 0 auto;
     width: 35%;
     opacity: .85; }
 
