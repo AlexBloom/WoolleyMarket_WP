@@ -113,7 +113,15 @@
 						<li><a class="" href="mailto:info@woolleymarket.com"target=_blank> info@woolleymarket.com </a></li>
 					</ul>
 				</nav>
-				<hr>
+				
+				
+				
+				<nav class="clearfix" style="display:none;">
+					<hr/>
+					<?php wp_nav_menu( array( 'theme_location' => 'page' ) ); // Display the user-defined menu in Appearance > Menus ?>	
+				</nav>
+				
+				<hr/>
 				<div id="address">
 					829 Metcalf Street • Sedro-Woolley, WA 98284
 				</div>
